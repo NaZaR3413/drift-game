@@ -28,3 +28,4 @@ npm run build
 
 ## Notes
 - Downgraded `vite` to `^6.0.0` to support Node 20.11.0.
+- Installed `@tailwindcss/postcss` and updated `postcss.config.js` for Tailwind v4 compatibility.
