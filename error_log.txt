@@ -1,0 +1,17 @@
+
+> drift-game@0.0.0 dev
+> vite
+
+You are using Node.js 20.11.0. Vite requires Node.js version 20.19+ or 22.12+. Please upgrade your Node.js version.
+error when starting dev server:
+TypeError: crypto.hash is not a function
+    at getHash (file:///C:/Users/nilay/Downloads/AI-spikes/msc/drift-game/node_modules/vite/dist/node/chunks/config.js:2680:21)
+    at getLockfileHash (file:///C:/Users/nilay/Downloads/AI-spikes/msc/drift-game/node_modules/vite/dist/node/chunks/config.js:33031:9)
+    at getDepHash (file:///C:/Users/nilay/Downloads/AI-spikes/msc/drift-game/node_modules/vite/dist/node/chunks/config.js:33034:23)
+    at initDepsOptimizerMetadata (file:///C:/Users/nilay/Downloads/AI-spikes/msc/drift-game/node_modules/vite/dist/node/chunks/config.js:32493:53)
+    at createDepsOptimizer (file:///C:/Users/nilay/Downloads/AI-spikes/msc/drift-game/node_modules/vite/dist/node/chunks/config.js:34681:17)
+    at new DevEnvironment (file:///C:/Users/nilay/Downloads/AI-spikes/msc/drift-game/node_modules/vite/dist/node/chunks/config.js:35455:109)
+    at Object.defaultCreateClientDevEnvironment [as createEnvironment] (file:///C:/Users/nilay/Downloads/AI-spikes/msc/drift-game/node_modules/vite/dist/node/chunks/config.js:35867:9)
+    at file:///C:/Users/nilay/Downloads/AI-spikes/msc/drift-game/node_modules/vite/dist/node/chunks/config.js:26036:52
+    at Array.map (<anonymous>)
+    at _createServer (file:///C:/Users/nilay/Downloads/AI-spikes/msc/drift-game/node_modules/vite/dist/node/chunks/config.js:26035:58)
